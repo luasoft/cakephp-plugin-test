@@ -17,6 +17,15 @@
         "forum": "http://dev.vnclip.info/support",
         "source": "http://dev.vnclip.info/support"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://123apps@bitbucket.org/123apps/private_test.git"
+        }
+    ],
+    "require": {
+        "123apps/private_test": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "CakeTest\\": "src/"
