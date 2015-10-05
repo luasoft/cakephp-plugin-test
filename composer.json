@@ -1,0 +1,39 @@
+{
+    "name": "luacap/cakephp-test",
+    "description": "Cakephp test plugin",
+    "type": "cakephp-plugin",
+    "keywords": ["test"],
+    "homepage": "http://dev.vnclip.info",
+    "authors": [
+        {
+            "name": "Test Captcha",
+            "email": "vnclip.info@gmail.com",
+            "homepage": "http://dev.vnclip.info"
+        }
+    ],
+    "support": {
+        "email": "support@vnclip.com",
+        "issues": "http://dev.vnclip.info/issues",
+        "forum": "http://dev.vnclip.info/support",
+        "source": "http://dev.vnclip.info/support"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://123apps.org/download"
+        }
+    ],
+    "require": {
+        "captcha/botdetect": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CakeTest\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
