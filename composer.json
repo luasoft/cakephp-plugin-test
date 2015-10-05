@@ -24,7 +24,7 @@
         }
     ],
     "require": {
-        "captcha/botdetect": "*"
+        "captcha/botdetect": "3.*"
     },
     "autoload": {
         "psr-4": {
