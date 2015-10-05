@@ -17,15 +17,6 @@
         "forum": "http://dev.vnclip.info/support",
         "source": "http://dev.vnclip.info/support"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://123apps.org/download"
-        }
-    ],
-    "require": {
-        "captcha/botdetect": "3.*"
-    },
     "autoload": {
         "psr-4": {
             "CakeTest\\": "src/"
