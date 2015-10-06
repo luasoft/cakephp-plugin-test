@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "symfony/http-foundation": "2.*"
+        "luacap/cakephp-helper": "1.*"
     },
     "autoload": {
         "psr-4": {
