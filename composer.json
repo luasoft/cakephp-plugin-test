@@ -3,28 +3,19 @@
     "description": "Cakephp test plugin",
     "type": "cakephp-plugin",
     "keywords": ["test"],
-    "homepage": "http://dev.vnclip.info",
     "authors": [
         {
             "name": "Test Captcha",
-            "email": "vnclip.info@gmail.com",
-            "homepage": "http://dev.vnclip.info"
         }
     ],
-    "support": {
-        "email": "support@vnclip.com",
-        "issues": "http://dev.vnclip.info/issues",
-        "forum": "http://dev.vnclip.info/support",
-        "source": "http://dev.vnclip.info/support"
-    },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "http://123apps@bitbucket.org/123apps/private_test.git"
+            "type": "composer",
+            "url": "http://web.localhost.com/packages"
         }
     ],
     "require": {
-        "123apps/private_test": "dev-master"
+        "symfony/http-foundation": "2.*"
     },
     "autoload": {
         "psr-4": {
